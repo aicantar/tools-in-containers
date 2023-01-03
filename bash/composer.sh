@@ -24,7 +24,7 @@ separate it from the container options with --, i.e.:
 This is due to the behavior of getopt(1) which is used by this script to parse
 the command line arguments.
 
-More info at https://github.com/aicantar/tools-in-containers.
+More info (and tools) at https://github.com/aicantar/tools-in-containers.
 USAGE
 }
 
