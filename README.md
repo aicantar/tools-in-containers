@@ -39,7 +39,7 @@ By default mounts the current directory as the container's working directory and
 | `-w`, `--workdir` | Directory to mount as container's working directory. All composer commands will be executed in this directory. | `$(pwd)`
 | `-h`, `--help` | Show help text and exit. | |
 
-#### Passing composer-specific command line arguments
+#### Passing command line arguments to composer
 
 If you need to pass any arguments to composer itself, first type `composerc` arguments (if any), then add `--` and only then type the composer arguments.
 
