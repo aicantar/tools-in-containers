@@ -3,8 +3,8 @@
 # Print usage information.
 usage() {
     cat << USAGE
-Usage: composer [CONTAINER-OPTIONS] COMPOSER-COMMAND
-       composer [CONTAINER-OPTIONS] [-- COMPOSER_OPTIONS...] COMPOSER-COMMAND
+Usage: composerc [CONTAINER-OPTIONS] COMPOSER-COMMAND
+       composerc [CONTAINER-OPTIONS] [-- COMPOSER_OPTIONS...] COMPOSER-COMMAND
 
 Container options:
       --image-tag   Composer image tag, default is 2
@@ -19,7 +19,7 @@ Container options:
 If you need to pass any Composer option that starts with -- (e.g. --no-cache),
 separate it from the container options with --, i.e.:
 
-  composer -- --no-cache
+  composerc -- --no-cache
 
 This is due to the behavior of getopt(1) which is used by this script to parse
 the command line arguments.
