@@ -30,7 +30,7 @@ USAGE
 
 # Locate either Docker or Podman executable and return its path.
 get_runner() {
-    echo $(command -v docker || command -v podman || exit 1)
+    command -v docker || command -v podman || exit 1
 }
 
 # Parse command line arguments.
