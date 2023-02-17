@@ -1,6 +1,6 @@
 # tools-in-containers
 
-A collection of tools I use containerized because I don't like them installed on my system. More tools will be added eventually.
+An attempt to publish my collection of containerized tools. The idea of writing container wrappers in Bash was questionable and the implementation turned out to be even more so. Now I'm working on a similar tool but it's gonna be done properly. The repository is archived indefinitely for those who might be interested.
 
 ## Installation
 
